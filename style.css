@@ -128,26 +128,99 @@ body
 {
     line-height: 1.5rem;
 }
-.abilities
+
+
+
+
+
+.distopia-main
 {
-    color: #66a0d3;
-    transition: 0.15s ease-in-out;
+    margin: 20rem 10rem 0rem 10rem;
+    color: #BF7821;
+    font-family: Josefin Sans;
+    font-size: 1.2rem;
 }
-.abilities:hover
+.distopia-main_body
 {
-    transition: 0.25s ease-in-out;
-    color: #2b9cff;
-    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
 }
-.dropdown-item
+.distopia-div-intermedium
 {
-    transition: 0.2s ease-in-out;
+    padding: 3rem;
+    text-align: center;
 }
-.dropdown-item:hover
+.distopia-div-h2
 {
-    transition: 0.4s ease-in-out;
+    font-size: 4rem;
+    font-family: Titillium web;
+    color: #BF7821;
+    font-weight: 400;
+    font-style: italic;
 }
-.home-footer
+.distopia-div
+{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    line-height: 1.5rem;
+}
+.distopia-text-h3
+{
+    align-items: center;
+    font-size: 1.6rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: Poetsen One;
+    font-weight: 100;
+}
+.distopia-text
+{
+    text-align: justify;
+    line-height: 1.5rem;
+    margin: 0rem 15% 0rem 15%;
+    font-size: 1.25rem;
+    text-align: justify;
+}
+.distopia-div-geral
+{
+    overflow: hidden;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.distopia-sketch-text
+{
+    max-height: max-content;
+    margin:  0 15% 0 15%;
+}
+.distopia-sketch
+{
+    width: 55rem;
+}
+.distopia-main-ol
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.distopia-main-li
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.distopia-div-item
+{
+    background-color: rgb(62, 104, 140, 0.45);
+    border: 0.2rem #3E688C solid;
+    padding: 2rem;
+}
+.distopia-footer
 {
     font-family: Poetsen One;
     background-color: rgb(89, 77, 54);
